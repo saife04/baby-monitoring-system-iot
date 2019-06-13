@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "252196236482",
+    "firebase_url": "https://test-d499b.firebaseio.com",
+    "project_id": "test-d499b",
+    "storage_bucket": "test-d499b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252196236482:android:2d892376869885ed",
+        "android_client_info": {
+          "package_name": "com.arnab.datta.babycare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "252196236482-8048mu63q5b82jn3ul942fier09c245d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.arnab.datta.babycare",
+            "certificate_hash": "a9a24b8b99e6c99dec49696332c185ac7367735e"
+          }
+        },
+        {
+          "client_id": "252196236482-gkkofd7stur3lk4jaemdhuf8h166joj5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtAKWJmPv_bU6PKFBcIG-IxVT9QyQqEbQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "252196236482-gkkofd7stur3lk4jaemdhuf8h166joj5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fever">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textViewApp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="60dp"
+            android:fontFamily="@font/earwigfactoryrg"
+            android:text="GAS and ACIDITY"
+            android:textColor="@color/app_red"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="500dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="30dp"
+            android:text="Burp your baby -
+	Burping helps relieve gas by allowing air to escape from the body, keeping it from building up.You can try holding your baby upright against your chest. Support her bottom with one hand and gently pat her back with the other. You can also try holding your baby further up on your shoulder so that your shoulder presses against her tummy. This can create a gentle pressure that may help get the burp out.
+
+Massage your baby -
+	Baby massage can also help relieve your baby's gas. Sit your tot on your lap and apply a small amount of baby oil to her bare tummy (be on the lookout for any sign of irritation). Place the palm of your hand over her bare tummy. Then, lean baby forward, pressing her tense abdomen against your hand.
+
+Pump the legs back and forth -
+	You can also try to gently push the gas out. While seated, place your baby face up on your lap with her legs toward you and her head resting on your knees. Then, slowly pump baby's legs up and down in a bicycle motion.
+
+Give warm bath -
+	Warm water can also help soothe a gassy baby. Draw a warm bath for your little one to help relieve her discomfort and make her feel more relaxed.
+"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+</ScrollView>

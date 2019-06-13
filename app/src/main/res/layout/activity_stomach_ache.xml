@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fever">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textViewApp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="70dp"
+            android:fontFamily="@font/earwigfactoryrg"
+            android:text="STOMACH ACHE"
+            android:textColor="@color/app_red"
+            android:textSize="35sp" />
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="600dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="30dp"
+            android:text="Rock your baby -
+	Rocking your baby while he is crying from stomach pain can help your baby pass excess gas. Since crying only causes him to swallow more air which creates more gas, the most important thing is to stop your baby from crying as soon as possible.
+
+Chamomile tea -
+	Give your baby some warm chamomile tea (one cup water per teabag). Doctors say that chamomile’s anti-inflammatory properties will help in easing stomach pain as it loosens the muscles of the upper digestive system, relieving along contractions and reducing tummy cramps.
+
+Warm compress -
+	Another way to ease stomach aches is to gently press a warm compress onto your baby’s abdomen when he starts crying due to stomach pain. The procedure can be repeated 2-3 times during the day and night.
+
+Massage using mastard oil -
+	Lay your baby on his back and gently massage the tummy using mustard oil. Apply it around the baby’s navel in an anti-clockwise direction. This will help stimulate the digestive system and move trapped gasses in your baby’s stomach. Massaging your baby every day is quite important.
+
+Help your baby to burp after every feeding -
+	Burp your baby after every feed by tapping gently on his back, while his head rests on your shoulder. If your baby doesn’t burp easily, try the ‘football hold’. Place him face-down on your forearm, with his legs straddling your elbow. Rest his chin in your hand and apply gentle pressure while stroking his back. This should release the excess air which may have gone inside while feeding.
+"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+</ScrollView>

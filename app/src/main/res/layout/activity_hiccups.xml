@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fever">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textViewApp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="100dp"
+            android:fontFamily="@font/earwigfactoryrg"
+            android:text="HICCUPS"
+            android:textColor="@color/app_red"
+            android:textSize="40sp" />
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="500dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="30dp"
+            android:text="Take a break and burp -
+	Taking a break from a feeding to burp your baby may help get rid of the hiccups, since burping can get rid of excess gas that may be causing the hiccups. Burping will also help because it places your baby into an upright position.
+
+Use a pacifier -
+	Infant hiccups don’t always start from a feeding. When your baby starts to hiccup on their own, try allowing them to suck on a pacifier, as this will help relax the diaphragm and may help stop the bout of hiccups.
+
+Feed the baby gripe water -
+	If your baby seems to be in discomfort because of their hiccups, then you may want to try feeding them gripe water. Gripe water is a combination of herbs and water that is believed by some to help with colic and other intestinal discomforts."
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+</ScrollView>

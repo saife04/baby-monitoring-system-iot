@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".Login">
+
+
+    <TextView
+        android:id="@+id/textViewApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-60dp"
+        android:fontFamily="@font/earwigfactoryrg"
+        android:text="Baby Care"
+        android:textColor="@color/pink_primary"
+        android:textSize="40sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="87dp"
+        android:contentDescription="@string/app_name"
+        app:srcCompat="@drawable/eyeone" />
+
+    <EditText
+        android:id="@+id/editTextUser"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/editTextPass"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="289dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="35dp"
+        android:background="#11000000"
+        android:drawableStart="@drawable/ic_action_user"
+        android:ems="10"
+        android:hint="  Username"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:textColorHint="@color/gray"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editTextPass"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="351dp"
+        android:layout_marginBottom="35dp"
+        android:background="#11000000"
+        android:drawableStart="@drawable/ic_action_pass"
+        android:ems="10"
+        android:hint="  Password"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:textColorHint="@color/gray"
+        android:textSize="16sp" />
+
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="410dp"
+        android:background="@drawable/button_login"
+        android:clickable="true"
+        android:padding="16dp"
+        android:text="Log in"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="500dp"
+        android:clickable="true"
+        android:text="New User ? Sign Up"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+
+
+</RelativeLayout>

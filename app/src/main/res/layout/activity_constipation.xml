@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fever">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textViewApp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="60dp"
+            android:fontFamily="@font/earwigfactoryrg"
+            android:text="CONSTIPATION"
+            android:textColor="@color/app_red"
+            android:textSize="35sp" />
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="500dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="30dp"
+            android:text="Increase Water Consumption -
+	Whether your baby is breast or bottle fed, it’s easy to assume she's getting enough water due to a primarily liquid diet. If your baby is showing signs of constipatiopn, try giving her an additional 2-4 ounces (1/4-1/2 cup) of water after each feeding to help bowels flush properly.
+
+Offer Fruit Juice -
+	Prune juice has a natural laxative effect, but pear or apple juices also work well to relieve minor constipation. Most babies quickly develop a preference for juice because of how sweet it is, so only offer full strength juices when your little one is constipated. To avoid gassiness, start slowly with less than 2 ounces of juice after feedings.
+
+Feed High-Fiber Foods -
+	Bananas, rice cereal, carrots, and cheese are a mainstay of most infant diets--they also tend to have a binding effect on stool. Foods like apricots, pears, prunes, peaches, and plums are better choices to help avoid constipation.
+
+Give Your Baby “Bicycle Legs” -
+	Sometimes making your baby’s body move will help get his bowels moving, too. Place your baby on his back in front of you. Lift up his legs and move them in a circular motion to mimic the motions of peddling a bicycle. The movement should help to release some abdominal pressure and get things going in the right direction.
+
+Try a Different Brand of formula -
+	If your baby gets formula, sometimes a switch is all it takes to relieve constipation. Every baby reacts differently to the ingredients of each type of formula, so try a few brands to find the one your baby tolerates best. Most brands have a low-lactose option, which your baby may tolerate better.
+
+Take Your Baby's Temperature -
+	Rectal stimulation can help your baby’s bowels to move. Use Vaseline to lubricate the tip of a rectal thermometer and insert it into your baby’s bottom. Very gently wiggle JUST the tip a few times before removing it. The stimulation will often cause a bowel movement to occur.
+
+Massage Her Tummy -
+	With your baby on her back, place your hand on her belly button. Using a clockwise motion, massage your baby’s tummy in ever bigger circles. Follow your baby’s cues as to how much pressure to use. If she fusses or cries, you’re pressing too hard.
+
+Give Him a Warm Bath -
+	A warm bath will soothe almost anyone. The thought is that the warm water will help your baby relax, allowing his body to let go of what he’s been holding in. When you’re drying him off is also a perfect time to try the tummy massage technique.
+"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+</ScrollView>

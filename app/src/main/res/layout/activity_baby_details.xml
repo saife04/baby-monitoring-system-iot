@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kid"
+    tools:context=".BabyDetails">
+
+    <TextView
+        android:id="@+id/textViewApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/earwigfactoryrg"
+        android:text="Baby Care"
+        android:textColor="@color/google_red"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/textViewDb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="166dp"
+        android:text="Date of Birth"
+        android:textSize="18sp"
+        android:textColor="@color/blue_grey_primary_dark"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textViewDob"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="181dp"
+        android:layout_marginTop="166dp"
+        android:hint="Select here"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/textViewPb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textViewDb"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="216dp"
+        android:text="Place of Birth"
+        android:textSize="18sp"
+        android:textColor="@color/blue_grey_primary_dark"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/editTextPlace"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="204dp"
+        android:ems="10"
+        android:hint="Hospital"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textViewHt"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textViewDb"
+        android:layout_alignParentTop="true"
+        android:text="Height"
+        android:textSize="18sp"
+        android:layout_marginTop="264dp"
+        android:textColor="@color/blue_grey_primary_dark"
+        android:textStyle="bold"/>
+
+
+    <EditText
+        android:id="@+id/editTextHeight"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="264dp"
+        android:ems="10"
+        android:hint="Height in cm"
+        android:inputType="number" />
+
+
+    <TextView
+        android:id="@+id/textViewWt"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textViewDb"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="327dp"
+        android:text="Weight"
+        android:textSize="18sp"
+        android:textColor="@color/blue_grey_primary_dark"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/editTextWeight"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="181dp"
+        android:layout_marginTop="327dp"
+        android:ems="10"
+        android:hint="Weight in Kg"
+        android:inputType="number" />
+
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textViewDb"
+        android:layout_alignTop="@+id/spinnerBG"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="-2dp"
+        android:text="Blood Group"
+        android:textSize="18sp"
+        android:textColor="@color/blue_grey_primary_dark"
+        android:textStyle="bold"/>
+
+    <Spinner
+        android:id="@+id/spinnerBG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textViewDob"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginBottom="149dp" />
+
+
+    <Button
+        android:id="@+id/nextbtn"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="481dp"
+        android:background="@drawable/button_signup"
+        android:text="Save"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="25sp" />
+
+
+
+</RelativeLayout>

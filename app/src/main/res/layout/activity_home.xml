@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cutebaby"
+    tools:context=".Home">
+
+    <TextView
+        android:id="@+id/textViewApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/earwigfactoryrg"
+        android:text="Baby Care"
+        android:textColor="@color/pink_primary"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/buttonmp"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="148dp"
+        android:background="@drawable/button_signup"
+        android:drawableStart="@drawable/ic_action_home"
+        android:text="My profile"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/buttonvd"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/buttonmp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="230dp"
+        android:text="Vaccine details"
+        android:drawableStart="@drawable/ic_action_vaccine"
+        android:background="@drawable/button_signup"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/buttonhc"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/buttonvd"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="312dp"
+        android:background="@drawable/button_signup"
+        android:drawableStart="@drawable/ic_action_health"
+        android:text="Health care"
+        android:textColor="@color/white"/>
+    <Button
+        android:id="@+id/buttondet"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/buttonvd"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="394dp"
+        android:background="@drawable/button_signup"
+        android:drawableStart="@drawable/ic_action_health"
+        android:text="Baby Control"
+        android:textColor="@color/white"/>
+    <Button
+        android:id="@+id/buttonlo"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/buttonvd"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="476dp"
+        android:background="@drawable/button_signup"
+        android:drawableStart="@drawable/ic_action_health"
+        android:text="Log out"
+        android:textColor="@color/white"/>
+
+
+
+</RelativeLayout>
